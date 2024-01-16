@@ -372,6 +372,24 @@ hr {
 }
 
 
+.zoom-container {
+    text-align: center;
+    position: relative;
+    width: 500px;
+    overflow: hidden;
+    margin:10px auto ;
+}
+
+.zoom-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom-container:hover .zoom-image {
+    transform: scale(1.2);
+}
+
 
 
 
@@ -489,9 +507,15 @@ hr {
     .perfect .vedio{
         width: 90%;        
     }
+    .save{
+        width: 400px;
+    }
+    .rotate{
+        position: relative;
+        right: 50px;
+        left: 200px;
+    }
 
 
-
-   
 
 }
