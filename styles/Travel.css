@@ -9,7 +9,7 @@
 }
 
 /* main section */
-main{
+main {
     max-width: 1440px;
     margin: 70px auto;
 }
@@ -132,19 +132,20 @@ nav li a {
 
 .destination-image-container {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
 }
 
-.maldives{
+.maldives {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white; 
+    color: white;
     font-size: 30px
 }
-.america{
-    position: absolute;    
+
+.america {
+    position: absolute;
     top: 50%;
     left: 50%;
     padding-left: .002px;
@@ -154,52 +155,59 @@ nav li a {
 
 /* choose us section  */
 
-.section-title{
+.section-title {
     color: #131318;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
-.hotel{
+
+.hotel {
     color: #5A5A5D;
     text-align: center;
 }
-.card{
+
+.card {
     border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
-width: 573px;
-height: 284px;
-padding-left: 20px;
-padding-top: 20px;
-margin-top: 40px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 40px;
 }
-.visiting-card-1{
+
+.visiting-card-1 {
     display: flex;
     gap: 30px;
 }
 
-.choose{
+.choose {
     margin: 10px auto;
     padding-left: 100px;
     padding-right: 100px;
 }
-.third-card{
+
+.third-card {
     display: flex;
     justify-content: center;
     padding-left: 30px;
-    padding-top:1px ;
+    padding-top: 1px;
     margin-top: 0px;
-    
+
 }
+
 /* deals and discount related styles */
-.jamela{
+.jamela {
     margin-left: 70;
-    
+
 }
-.discount{
+
+.discount {
     text-align: center;
 }
+
 .image-container-jamela {
     position: relative;
     display: inline-block;
@@ -210,43 +218,46 @@ margin-top: 40px;
     top: 50%;
     left: 50%;
     transform: translate(10%, -50%);
-    color: rgb(26, 24, 24); 
-    font-size: 14px; 
-    font-family: Arial, sans-serif; 
+    color: rgb(26, 24, 24);
+    font-size: 14px;
+    font-family: Arial, sans-serif;
     border-radius: 16px;
-border: 2px solid #FFF;
-background: rgba(255, 255, 255, 0.80);
-backdrop-filter: blur(2.5px);
-padding-left: 50px;
-padding-top: 50px;
-padding-bottom: 50px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.vejal{
+
+.vejal {
     display: flex;
 }
-.text-overlay-2{
+
+.text-overlay-2 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-110%, -50%);
-    color: rgb(26, 24, 24); 
-    font-size: 14px; 
-    font-family: Arial, sans-serif; 
+    color: rgb(26, 24, 24);
+    font-size: 14px;
+    font-family: Arial, sans-serif;
     border-radius: 16px;
-border: 2px solid #FFF;
-background: rgba(255, 255, 255, 0.80);
-backdrop-filter: blur(2.5px);
-padding-left: 50px;
-padding-top: 50px;
-padding-bottom: 50px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.vejal-btn{
+
+.vejal-btn {
     text-align: center;
     margin-top: 30px;
 }
 
 /* perfect place related styles */
-.perfect{
+.perfect {
     margin-top: 60px;
     display: flex;
     /* justify-content: space-between;
@@ -254,8 +265,107 @@ padding-bottom: 50px;
     gap: 20px;
 }
 
+.image-youtube {
+    position: relative;
+    display: inline-block;
+}
+
+.youtube img {
+    justify-content: space-between;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -300%);
+
+}
+
+.text-overlay-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -300%);
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+}
 
 
+/* save section start */
+.save {
+    display: flex;
+    gap: 100px;
+}
+
+.form {
+    margin-top: 10px;
+    text-align: left;
+    width: 400px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.subscribe {
+    margin-top: 10px;
+    width: 400px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+ .feature-img .save{
+    height: 90%;
+    margin-left: 100px;
+} 
+
+.rotate {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    position: relative;
+    bottom: 180px;
+    left: 340px;
+}
+.a{
+    margin-top: 5px;
+}
+
+/* footer related styles */
+footer{
+    
+height: 502px;
+background: rgba(19, 19, 24, 0.05);
+}
+.footer-hero{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.footer-describtion{    
+    text-align: center;
+}
+.links{
+    margin-top: 50px;
+    text-align: center;
+}
+hr{
+    margin-top: 50px;
+}
+.reserved{
+    margin-top: 50px;
+    color: #131318;  
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
 
 
 
@@ -277,9 +387,11 @@ padding-bottom: 50px;
     .pahar img {
         width: 90%;
     }
-    .destination{
+
+    .destination {
         margin-top: 600px;
     }
+
     .america,
     .maldives {
         width: 3000px;
